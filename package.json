@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/horidor/Laboratorna6OP/issues"
   },
-  "homepage": "https://github.com/horidor/Laboratorna6OP#readme"
+  "homepage": "https://github.com/horidor/Laboratorna6OP#readme",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "obj-file-parser": "^0.5.3",
+    "three": "^0.129.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4"
+  }
 }
