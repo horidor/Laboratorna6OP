@@ -52,7 +52,7 @@ exports.Octree = class Octree {
       // Insert all triangles to the internal node
       let newTree = internalNode
       for (let newTriangle of newTriangles) {
-        newTree = internalNode.insertTriangle(newTriangle)
+        newTree = newTree.insertTriangle(newTriangle)
       }
       return newTree
     }
